@@ -3,7 +3,13 @@
 </svelte:head>
 
 <main>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis numquam harum est ipsum voluptatibus exercitationem laudantium perferendis pariatur! Ratione error totam porro consectetur quibusdam dolores tenetur facere rerum voluptatibus quidem.
-    </p>
+    <div class="empty p-0 p-2">
+        <div class="form-group text-left px-2">
+            <label class="form-label" for="taskInput">Masukkan tugas</label>
+            <input type="text" name="" id="taskInput" class="form-input" />
+        </div>
+        <div class="form-group text-left px-2 mb-2">
+            <button class="btn btn-primary">Simpan Tugas</button>
+        </div>
+    </div>
 </main>
